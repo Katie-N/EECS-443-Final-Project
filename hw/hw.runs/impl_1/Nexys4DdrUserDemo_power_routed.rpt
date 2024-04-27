@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Fri Apr 26 21:30:06 2024
+| Date             : Fri Apr 26 21:53:15 2024
 | Host             : Katies-Desktop running 64-bit major release  (build 9200)
 | Command          : report_power -file Nexys4DdrUserDemo_power_routed.rpt -pb Nexys4DdrUserDemo_power_summary_routed.pb -rpx Nexys4DdrUserDemo_power_routed.rpx
 | Design           : Nexys4DdrUserDemo

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1714184694" LaunchIncrCheckpoint="$PPRDIR/../../proj/hw.srcs/utils_1/imports/synth_1/Nexys4DdrUserDemo.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1714186091" LaunchIncrCheckpoint="$PPRDIR/../../proj/hw.srcs/utils_1/imports/synth_1/Nexys4DdrUserDemo.dcp">
   <File Type="PA-TCL" Name="Nexys4DdrUserDemo.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Nexys4DdrUserDemo_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Nexys4DdrUserDemo_reports.tcl"/>
@@ -85,51 +85,6 @@
     <File Path="$PSRCDIR/sources_1/imports/src/hdl/top.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../src/hdl/top.vhd"/>
-        <Attr Name="ImportTime" Val="1691410005"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/src/hdl/LocalRst.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../src/hdl/LocalRst.vhd"/>
-        <Attr Name="ImportTime" Val="1691410005"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/src/hdl/Pwm.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../src/hdl/Pwm.vhd"/>
-        <Attr Name="ImportTime" Val="1691410005"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/src/hdl/SPI_If.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../src/hdl/SPI_If.vhd"/>
-        <Attr Name="ImportTime" Val="1691410005"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/src/hdl/MicDisplay.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../src/hdl/MicDisplay.vhd"/>
-        <Attr Name="ImportTime" Val="1691410005"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/src/hdl/SyncAsync.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../src/hdl/SyncAsync.vhd"/>
         <Attr Name="ImportTime" Val="1691410005"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>

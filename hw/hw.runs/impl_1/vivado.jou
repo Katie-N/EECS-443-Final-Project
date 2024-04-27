@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Fri Apr 26 21:28:00 2024
-# Process ID: 1908
+# Start of session at: Fri Apr 26 21:51:16 2024
+# Process ID: 13724
 # Current directory: C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1
 # Command line: vivado.exe -log Nexys4DdrUserDemo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Nexys4DdrUserDemo.tcl -notrace
 # Log file: C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo.vdi

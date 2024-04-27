@@ -14,7 +14,7 @@ ECHO is off.
     ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source Nexys4DdrUserDemo.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 423.746 ; gain = 164.004
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 422.812 ; gain = 160.980
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/Katie/Downloads/repo'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
@@ -41,14 +41,14 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 18504
+INFO: [Synth 8-7075] Helper process launched with PID 9412
 WARNING: [Synth 8-10515] begin/end is required for generate-for in this mode of Verilog [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/rtl/controller/mig_7series_v4_2_arb_row_col.v:253]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1287.891 ; gain = 410.145
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1289.145 ; gain = 411.711
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Nexys4DdrUserDemo' [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/top.vhd:115]
-INFO: [Synth 8-3491] module 'ClkGen' declared at 'C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/.Xil/Vivado-19336-Katies-Desktop/realtime/ClkGen_stub.vhdl:6' bound to instance 'Inst_ClkGen' of component 'ClkGen' [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/top.vhd:243]
-INFO: [Synth 8-638] synthesizing module 'ClkGen' [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/.Xil/Vivado-19336-Katies-Desktop/realtime/ClkGen_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'ClkGen' declared at 'C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/.Xil/Vivado-6776-Katies-Desktop/realtime/ClkGen_stub.vhdl:6' bound to instance 'Inst_ClkGen' of component 'ClkGen' [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/top.vhd:243]
+INFO: [Synth 8-638] synthesizing module 'ClkGen' [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/.Xil/Vivado-6776-Katies-Desktop/realtime/ClkGen_stub.vhdl:17]
 INFO: [Synth 8-3491] module 'sevenSegBehav' declared at 'C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/new/sevenSegBehav.vhd:34' bound to instance 'Inst_SevenSeg' of component 'sevenSegBehav' [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/top.vhd:255]
 INFO: [Synth 8-638] synthesizing module 'sevenSegBehav' [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/new/sevenSegBehav.vhd:43]
 INFO: [Synth 8-256] done synthesizing module 'sevenSegBehav' (0#1) [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/new/sevenSegBehav.vhd:43]
@@ -1100,18 +1100,18 @@ WARNING: [Synth 8-7129] Port dbg_phy_init[220] in module mig_7series_v4_2_ddr_ph
 WARNING: [Synth 8-7129] Port dbg_phy_init[219] in module mig_7series_v4_2_ddr_phy_init is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.824 ; gain = 695.078
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.391 ; gain = 694.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1572.824 ; gain = 695.078
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.391 ; gain = 694.957
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1572.824 ; gain = 695.078
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.391 ; gain = 694.957
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.393 . Memory (MB): peak = 1572.824 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.391 . Memory (MB): peak = 1573.734 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -1161,25 +1161,25 @@ Parsing XDC File [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/dont
 Finished Parsing XDC File [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1680.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1681.695 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 46 instances were transformed.
   IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
   IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 28 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 1680.316 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 1681.695 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1680.316 ; gain = 802.570
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1681.695 ; gain = 804.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1680.316 ; gain = 802.570
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1681.695 ; gain = 804.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -1191,7 +1191,7 @@ Applied set_property IO_BUFFER_TYPE = NONE for ddr2_ck_p[0]. (constraint file  c
 Applied set_property KEEP_HIERARCHY = SOFT for Inst_Audio/DDR/Inst_DDR. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Inst_ClkGen. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1680.316 ; gain = 802.570
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1681.695 ; gain = 804.262
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-3936] Found unconnected internal register 'AddrInt_reg' and it is trimmed from '32' to '27' bits. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/RamCntrl.vhd:109]
 INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'RamCntrl'
@@ -1300,7 +1300,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'cState_reg' using encoding
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'AudioDemo'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1680.316 ; gain = 802.570
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1681.695 ; gain = 804.262
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-223] decloning instance 'Inst_Audio/Btnu' (Dbncr) to 'Inst_Audio/Playback'
 ---------------------------------------------------------------------------------
@@ -1468,7 +1468,7 @@ DSP Report: operator Leds/CLK_DIV_RATIO3 is absorbed into DSP Leds/CLK_DIV_RATIO
 DSP Report: operator Leds/CLK_DIV_RATIO3 is absorbed into DSP Leds/CLK_DIV_RATIO3.
 WARNING: [Synth 8-3332] Sequential element (FSM_onehot_cal1_state_r_reg[33]) is unused and will be removed from module mig_7series_v4_2_ddr_phy_rdlvl.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:56 ; elapsed = 00:02:00 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:55 ; elapsed = 00:02:00 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1514,13 +1514,13 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-3321] set_false_path : Empty through list for constraint at line 347 of c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc. [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc:347]
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:06 ; elapsed = 00:02:10 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:05 ; elapsed = 00:02:10 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:02:11 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Timing Optimization : Time (s): cpu = 00:02:06 ; elapsed = 00:02:11 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1545,7 +1545,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:11 ; elapsed = 00:02:16 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Technology Mapping : Time (s): cpu = 00:02:11 ; elapsed = 00:02:15 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1593,37 +1593,37 @@ WARNING: [Synth 8-3295] tying undriven pin u_ddr_mig/u_memc_ui_top_std/mem_intfc
 WARNING: [Synth 8-3295] tying undriven pin u_ddr_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/pi_stg2_reg_l_div2r3_inferred:in0[0] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin u_ddr_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/pi_dqs_find_rst_inferred:in0 to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:17 ; elapsed = 00:02:22 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished IO Insertion : Time (s): cpu = 00:02:17 ; elapsed = 00:02:21 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:17 ; elapsed = 00:02:22 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:17 ; elapsed = 00:02:21 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:19 ; elapsed = 00:02:23 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:18 ; elapsed = 00:02:23 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:19 ; elapsed = 00:02:23 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:18 ; elapsed = 00:02:23 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:19 ; elapsed = 00:02:23 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:18 ; elapsed = 00:02:23 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:19 ; elapsed = 00:02:24 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:18 ; elapsed = 00:02:23 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1716,18 +1716,18 @@ Report Cell Usage:
 |44    |OBUFT                 |     3|
 +------+----------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:19 ; elapsed = 00:02:24 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:18 ; elapsed = 00:02:23 . Memory (MB): peak = 1852.047 ; gain = 974.613
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 45 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:56 ; elapsed = 00:02:17 . Memory (MB): peak = 1845.027 ; gain = 859.789
-Synthesis Optimization Complete : Time (s): cpu = 00:02:19 ; elapsed = 00:02:24 . Memory (MB): peak = 1845.027 ; gain = 967.281
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:56 ; elapsed = 00:02:16 . Memory (MB): peak = 1852.047 ; gain = 865.309
+Synthesis Optimization Complete : Time (s): cpu = 00:02:19 ; elapsed = 00:02:23 . Memory (MB): peak = 1852.047 ; gain = 974.613
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.256 . Memory (MB): peak = 1845.027 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.249 . Memory (MB): peak = 1852.047 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 373 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 2 inverter(s) to 16 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1845.027 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1852.047 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 109 instances were transformed.
   IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
@@ -1740,7 +1740,7 @@ Synth Design complete | Checksum: ef26a1d5
 INFO: [Common 17-83] Releasing license: Synthesis
 271 Infos, 345 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:27 ; elapsed = 00:02:34 . Memory (MB): peak = 1845.027 ; gain = 1358.320
+synth_design: Time (s): cpu = 00:02:26 ; elapsed = 00:02:33 . Memory (MB): peak = 1852.047 ; gain = 1367.016
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/Nexys4DdrUserDemo.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Nexys4DdrUserDemo_utilization_synth.rpt -pb Nexys4DdrUserDemo_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 21:27:51 2024...
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 21:51:07 2024...
