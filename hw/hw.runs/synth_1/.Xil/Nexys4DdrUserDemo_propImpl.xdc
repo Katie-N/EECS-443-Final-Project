@@ -1,5 +1,5 @@
-set_property SRC_FILE_INFO {cfile:c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc rfile:../../../hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc id:1 order:EARLY scoped_inst:Inst_Audio/DDR/Inst_DDR} [current_design]
-set_property SRC_FILE_INFO {cfile:C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc rfile:../../../hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc rfile:../../../hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc id:1 order:EARLY scoped_inst:Inst_Audio/DDR/Inst_DDR} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc rfile:../../../hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc id:2} [current_design]
 current_instance Inst_Audio/DDR/Inst_DDR
 set_property src_info {type:SCOPED_XDC file:1 line:39 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN R7 [get_ports {ddr2_dq[0]}]

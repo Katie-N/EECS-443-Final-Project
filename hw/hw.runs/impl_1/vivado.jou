@@ -3,12 +3,12 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Fri Apr 26 16:20:34 2024
-# Process ID: 12008
-# Current directory: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1
+# Start of session at: Fri Apr 26 21:28:00 2024
+# Process ID: 1908
+# Current directory: C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1
 # Command line: vivado.exe -log Nexys4DdrUserDemo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Nexys4DdrUserDemo.tcl -notrace
-# Log file: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo.vdi
-# Journal file: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1\vivado.jou
+# Log file: C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo.vdi
+# Journal file: C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1\vivado.jou
 # Running On: Katies-Desktop, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 17128 MB
 #-----------------------------------------------------------
 source Nexys4DdrUserDemo.tcl -notrace

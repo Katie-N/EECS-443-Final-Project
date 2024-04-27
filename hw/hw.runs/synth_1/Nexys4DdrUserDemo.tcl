@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/synth_1/Nexys4DdrUserDemo.tcl"
+  variable script "C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/Nexys4DdrUserDemo.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 1
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -79,39 +77,39 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.cache/wt [current_project]
-set_property parent.project_path C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Katie/Downloads/NordbergFinal/hw/hw.cache/wt [current_project]
+set_property parent.project_path C:/Users/Katie/Downloads/NordbergFinal/hw/hw.xpr [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property board_part_repo_paths {C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.board} [current_project]
+set_property board_part_repo_paths {C:/Users/Katie/Downloads/NordbergFinal/hw/hw.board} [current_project]
 set_property board_part digilentinc.com:nexys-a7-100t:part0:1.0 [current_project]
 set_property ip_repo_paths c:/Users/Katie/Downloads/repo [current_project]
 update_ip_catalog
-set_property ip_output_repo c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Katie/Downloads/NordbergFinal/hw/hw.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-add_files C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/other/Nexys4_all.coe
+add_files C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/other/Nexys4_all.coe
 read_vhdl -library xil_defaultlib {
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/AudioDemo.vhd
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/Dbncr.vhd
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/LedBar.vhd
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/PdmDes.vhd
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/PdmSer.vhd
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/Ram2Ddr.vhd
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/RamCntrl.vhd
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/new/sevenSegBehav.vhd
-  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/top.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/AudioDemo.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/Dbncr.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/LedBar.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/PdmDes.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/PdmSer.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/Ram2Ddr.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/RamCntrl.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/new/sevenSegBehav.vhd
+  C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/imports/src/hdl/top.vhd
 }
-read_ip -quiet C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/ip/ddr/ddr.xci
-set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr_ooc.xdc]
+read_ip -quiet C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/ip/ddr/ddr.xci
+set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr_ooc.xdc]
 
-read_ip -quiet C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/ClkGen/ip/ClkGen/ClkGen.xci
-set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen_ooc.xdc]
+read_ip -quiet C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/ClkGen/ip/ClkGen/ClkGen.xci
+set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -122,8 +120,8 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc
-set_property used_in_implementation false [get_files C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
+read_xdc C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc
+set_property used_in_implementation false [get_files C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

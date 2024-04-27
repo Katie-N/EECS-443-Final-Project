@@ -3,16 +3,16 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Fri Apr 26 16:20:34 2024
-# Process ID: 12008
-# Current directory: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1
+# Start of session at: Fri Apr 26 21:28:00 2024
+# Process ID: 1908
+# Current directory: C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1
 # Command line: vivado.exe -log Nexys4DdrUserDemo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Nexys4DdrUserDemo.tcl -notrace
-# Log file: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo.vdi
-# Journal file: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1\vivado.jou
+# Log file: C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo.vdi
+# Journal file: C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1\vivado.jou
 # Running On: Katies-Desktop, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 17128 MB
 #-----------------------------------------------------------
 source Nexys4DdrUserDemo.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 425.141 ; gain = 165.340
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 424.027 ; gain = 165.703
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/Katie/Downloads/repo'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
@@ -21,100 +21,100 @@ Command: link_design -top Nexys4DdrUserDemo -part xc7a100tcsg324-1
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
-INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.dcp' for cell 'Inst_ClkGen'
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.197 . Memory (MB): peak = 911.094 ; gain = 0.000
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.dcp' for cell 'Inst_ClkGen'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.198 . Memory (MB): peak = 909.504 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 374 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2023.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc] for cell 'Inst_Audio/DDR/Inst_DDR'
-Finished Parsing XDC File [c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc] for cell 'Inst_Audio/DDR/Inst_DDR'
-Parsing XDC File [c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen_board.xdc] for cell 'Inst_ClkGen/inst'
-Finished Parsing XDC File [c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen_board.xdc] for cell 'Inst_ClkGen/inst'
-Parsing XDC File [c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc] for cell 'Inst_ClkGen/inst'
-INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc:57]
-INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc:57]
-get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1581.480 ; gain = 525.191
-Finished Parsing XDC File [c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc] for cell 'Inst_ClkGen/inst'
-Parsing XDC File [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
-WARNING: [Vivado 12-584] No ports matched 'rgb1_blue_o'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:54]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:54]
+Parsing XDC File [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc] for cell 'Inst_Audio/DDR/Inst_DDR'
+Finished Parsing XDC File [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc] for cell 'Inst_Audio/DDR/Inst_DDR'
+Parsing XDC File [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen_board.xdc] for cell 'Inst_ClkGen/inst'
+Finished Parsing XDC File [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen_board.xdc] for cell 'Inst_ClkGen/inst'
+Parsing XDC File [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc] for cell 'Inst_ClkGen/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc:57]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1577.965 ; gain = 522.879
+Finished Parsing XDC File [c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/ClkGen/ip/ClkGen/ClkGen.xdc] for cell 'Inst_ClkGen/inst'
+Parsing XDC File [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rgb1_blue_o'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:54]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rgb1_green_o'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:55]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'rgb1_green_o'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:55]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rgb1_red_o'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:56]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'rgb1_red_o'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:56]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rgb2_blue_o'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:57]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:57]
+WARNING: [Vivado 12-584] No ports matched 'rgb2_blue_o'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:57]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rgb2_green_o'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:58]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:58]
+WARNING: [Vivado 12-584] No ports matched 'rgb2_green_o'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:58]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rgb2_red_o'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:59]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'rgb2_red_o'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:59]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:159]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:159]
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:159]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_red_o[1]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:160]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:160]
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[1]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:160]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_red_o[2]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:161]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:161]
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[2]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:161]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_red_o[3]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:162]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:162]
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[3]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:162]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_green_o[0]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:164]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:164]
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[0]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:164]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_green_o[1]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:165]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:165]
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[1]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:165]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_green_o[2]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:166]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:166]
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[2]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:166]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_green_o[3]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:167]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:167]
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[3]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:167]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[0]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:169]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:169]
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[0]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:169]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[1]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:170]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:170]
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[1]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:170]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[2]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:171]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:171]
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[2]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:171]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:171]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[3]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:172]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:172]
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[3]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:172]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:172]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_hs_o'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:174]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:174]
+WARNING: [Vivado 12-584] No ports matched 'vga_hs_o'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:174]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:174]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'vga_vs_o'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:175]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:175]
+WARNING: [Vivado 12-584] No ports matched 'vga_vs_o'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:175]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'miso'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:192]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:192]
+WARNING: [Vivado 12-584] No ports matched 'miso'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:192]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:192]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'mosi'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:193]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:193]
+WARNING: [Vivado 12-584] No ports matched 'mosi'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:193]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:193]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'sclk'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:194]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:194]
+WARNING: [Vivado 12-584] No ports matched 'sclk'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:194]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:194]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'ss'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:195]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:195]
+WARNING: [Vivado 12-584] No ports matched 'ss'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:195]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:195]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {NAME =~ *SyncAsync*/oSyncStages_reg[*]/D} -hier'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:262]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-through [get_pins -filter {NAME =~ *SyncAsync*/oSyncStages_reg[*]/D} -hier]'. [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:262]
+WARNING: [Vivado 12-508] No pins matched 'get_pins -filter {NAME =~ *SyncAsync*/oSyncStages_reg[*]/D} -hier'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:262]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-through [get_pins -filter {NAME =~ *SyncAsync*/oSyncStages_reg[*]/D} -hier]'. [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc:262]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-Finished Parsing XDC File [C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1581.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1577.965 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 109 instances were transformed.
   IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
@@ -125,7 +125,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 12 Infos, 26 Warnings, 25 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1581.480 ; gain = 1093.648
+link_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1577.965 ; gain = 1090.340
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
@@ -136,13 +136,13 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors, 1 Warnings
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1581.480 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1577.965 ; gain = 0.000
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Ending Cache Timing Information Task | Checksum: 20fbcaa60
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.376 . Memory (MB): peak = 1605.539 ; gain = 24.059
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.357 . Memory (MB): peak = 1602.000 ; gain = 24.035
 
 Starting Logic Optimization Task
 
@@ -152,7 +152,7 @@ INFO: [Opt 31-138] Pushed 8 inverter(s) to 8 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
 Phase 1 Retarget | Checksum: 218030f4e
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.415 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.413 . Memory (MB): peak = 1932.160 ; gain = 0.000
 INFO: [Opt 31-389] Phase Retarget created 30 cells and removed 130 cells
 INFO: [Opt 31-1021] In phase Retarget, 31 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
@@ -160,32 +160,32 @@ Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 Phase 2 Constant propagation | Checksum: 2ab237308
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.473 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.473 . Memory (MB): peak = 1932.160 ; gain = 0.000
 INFO: [Opt 31-389] Phase Constant propagation created 3 cells and removed 15 cells
 
 Phase 3 Sweep
 Phase 3 Sweep | Checksum: 1cb4059cf
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.591 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.593 . Memory (MB): peak = 1932.160 ; gain = 0.000
 INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 167 cells
 
 Phase 4 BUFG optimization
 Phase 4 BUFG optimization | Checksum: 25a083487
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.689 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.691 . Memory (MB): peak = 1932.160 ; gain = 0.000
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
 Phase 5 Shift Register Optimization | Checksum: 1f203e03a
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.921 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.928 . Memory (MB): peak = 1932.160 ; gain = 0.000
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
 Phase 6 Post Processing Netlist | Checksum: 1dcb48075
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.949 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.956 . Memory (MB): peak = 1932.160 ; gain = 0.000
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 Opt_design Change Summary
 =========================
@@ -206,44 +206,44 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1932.160 ; gain = 0.000
 Ending Logic Optimization Task | Checksum: 1b8720ae4
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.971 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.978 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
 Ending Power Optimization Task | Checksum: 1b8720ae4
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Starting Final Cleanup Task
 Ending Final Cleanup Task | Checksum: 1b8720ae4
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1932.160 ; gain = 0.000
 Ending Netlist Obfuscation Task | Checksum: 1b8720ae4
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1932.160 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 31 Infos, 26 Warnings, 25 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1940.047 ; gain = 358.566
+opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1932.160 ; gain = 354.195
 INFO: [runtcl-4] Executing : report_drc -file Nexys4DdrUserDemo_drc_opted.rpt -pb Nexys4DdrUserDemo_drc_opted.pb -rpx Nexys4DdrUserDemo_drc_opted.rpx
 Command: report_drc -file Nexys4DdrUserDemo_drc_opted.rpt -pb Nexys4DdrUserDemo_drc_opted.pb -rpx Nexys4DdrUserDemo_drc_opted.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo_drc_opted.rpt.
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo_drc_opted.rpt.
 report_drc completed successfully
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.091 . Memory (MB): peak = 1940.047 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo_opt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.206 . Memory (MB): peak = 1932.160 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo_opt.dcp' has been generated.
 Command: place_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
@@ -261,53 +261,53 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1932.160 ; gain = 0.000
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 109a98278
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1940.047 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1932.160 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 93e68f7d
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.649 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.650 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
 Phase 1.3 Build Placer Netlist Model | Checksum: 18b572495
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
 Phase 1.4 Constrain Clocks/Macros | Checksum: 18b572495
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1932.160 ; gain = 0.000
 Phase 1 Placer Initialization | Checksum: 18b572495
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
 Phase 2.1 Floorplanning | Checksum: 17ac73065
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 2.2 Update Timing before SLR Path Opt
 Phase 2.2 Update Timing before SLR Path Opt | Checksum: 13a9d5bad
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 2.3 Post-Processing in Floorplanning
 Phase 2.3 Post-Processing in Floorplanning | Checksum: 13a9d5bad
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 2.4 Global Placement Core
 
 Phase 2.4.1 UpdateTiming Before Physical Synthesis
 Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 13a65111d
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 2.4.2 Physical Synthesis In Placer
 INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 407 LUT instances to create LUTNM shape
@@ -323,7 +323,7 @@ INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was
 INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
 INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -347,53 +347,53 @@ Summary of Physical Synthesis Optimizations
 
 Phase 2.4.2 Physical Synthesis In Placer | Checksum: 11e5855d4
 
-Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1932.160 ; gain = 0.000
 Phase 2.4 Global Placement Core | Checksum: 1973d0267
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1932.160 ; gain = 0.000
 Phase 2 Global Placement | Checksum: 1973d0267
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
 Phase 3.1 Commit Multi Column Macros | Checksum: 13353da4c
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
 Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 2840a0dcd
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
 Phase 3.3 Area Swap Optimization | Checksum: 291044032
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
 Phase 3.4 Pipeline Register Optimization | Checksum: 2517352d9
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 3.5 Small Shape Detail Placement
 Phase 3.5 Small Shape Detail Placement | Checksum: 1dbdf0135
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 3.6 Re-assign LUT pins
 Phase 3.6 Re-assign LUT pins | Checksum: 1d9720951
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 3.7 Pipeline Register Optimization
 Phase 3.7 Pipeline Register Optimization | Checksum: 1cd43034e
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1932.160 ; gain = 0.000
 Phase 3 Detail Placement | Checksum: 1cd43034e
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 1940.047 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 1932.160 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -412,30 +412,30 @@ INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximu
 INFO: [Physopt 32-619] Estimated Timing Summary | WNS=1.457 | TNS=0.000 |
 Phase 1 Physical Synthesis Initialization | Checksum: 1f8bdafca
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.406 . Memory (MB): peak = 1964.402 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.477 . Memory (MB): peak = 1955.812 ; gain = 0.000
 INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to netlist editing failed: 0.
 Ending Physical Synthesis Task | Checksum: 1f8bdafca
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.486 . Memory (MB): peak = 1964.402 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.586 . Memory (MB): peak = 1955.812 ; gain = 0.000
 Phase 4.1.1.1 BUFG Insertion | Checksum: 215db0f7f
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1955.812 ; gain = 23.652
 
 Phase 4.1.1.2 Post Placement Timing Optimization
 INFO: [Place 30-746] Post Placement Timing Summary WNS=1.457. For the most accurate timing information please run report_timing.
 Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 22e8a90ef
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1955.812 ; gain = 23.652
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1955.812 ; gain = 23.652
 Phase 4.1 Post Commit Optimization | Checksum: 22e8a90ef
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 1955.812 ; gain = 23.652
 
 Phase 4.2 Post Placement Cleanup
 Phase 4.2 Post Placement Cleanup | Checksum: 22e8a90ef
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:17 . Memory (MB): peak = 1955.812 ; gain = 23.652
 
 Phase 4.3 Placer Reporting
 
@@ -456,43 +456,43 @@ INFO: [Place 30-612] Post-Placement Estimated Congestion
 
 Phase 4.3.1 Print Estimated Congestion | Checksum: 22e8a90ef
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1955.812 ; gain = 23.652
 Phase 4.3 Placer Reporting | Checksum: 22e8a90ef
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1955.812 ; gain = 23.652
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1964.402 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1955.812 ; gain = 0.000
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1955.812 ; gain = 23.652
 Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2531aecfe
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1955.812 ; gain = 23.652
 Ending Placer Task | Checksum: 16e85836d
 
-Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 1964.402 ; gain = 24.355
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1955.812 ; gain = 23.652
 INFO: [Common 17-83] Releasing license: Implementation
 66 Infos, 26 Warnings, 25 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:17 . Memory (MB): peak = 1964.402 ; gain = 24.355
+place_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 1955.812 ; gain = 23.652
 INFO: [runtcl-4] Executing : report_io -file Nexys4DdrUserDemo_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 1964.402 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.096 . Memory (MB): peak = 1955.812 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file Nexys4DdrUserDemo_utilization_placed.rpt -pb Nexys4DdrUserDemo_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file Nexys4DdrUserDemo_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1964.402 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1955.812 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1967.324 ; gain = 2.922
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo_placed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1959.770 ; gain = 3.957
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo_placed.dcp' has been generated.
 Command: phys_opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
 
 Starting Initial Update Timing Task
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1967.324 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1959.770 ; gain = 0.000
 INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
 INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
 INFO: [Common 17-83] Releasing license: Implementation
@@ -502,8 +502,8 @@ INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1990.152 ; gain = 22.828
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo_physopt.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1984.047 ; gain = 24.277
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo_physopt.dcp' has been generated.
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
@@ -521,25 +521,25 @@ Checksum: PlaceDB: 6f27067c ConstDB: 0 ShapeSum: ff5e7cf1 RouteDB: 0
 Post Restoration Checksum: NetGraph: 46ccf90a | NumContArr: f47a654f | Constraints: 190a55ad | Timing: 0
 Phase 1 Build RT Design | Checksum: 15451b406
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:33 . Memory (MB): peak = 2130.727 ; gain = 119.137
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:36 . Memory (MB): peak = 2131.406 ; gain = 120.746
 
 Phase 2 Router Initialization
 
 Phase 2.1 Fix Topology Constraints
 Phase 2.1 Fix Topology Constraints | Checksum: 15451b406
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:33 . Memory (MB): peak = 2130.727 ; gain = 119.137
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:36 . Memory (MB): peak = 2131.406 ; gain = 120.746
 
 Phase 2.2 Pre Route Cleanup
 Phase 2.2 Pre Route Cleanup | Checksum: 15451b406
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:33 . Memory (MB): peak = 2130.727 ; gain = 119.137
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:36 . Memory (MB): peak = 2131.406 ; gain = 120.746
  Number of Nodes with overlaps = 0
 
 Phase 2.3 Update Timing
 Phase 2.3 Update Timing | Checksum: 19cf212fe
 
-Time (s): cpu = 00:00:41 ; elapsed = 00:00:35 . Memory (MB): peak = 2140.777 ; gain = 129.188
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:38 . Memory (MB): peak = 2141.488 ; gain = 130.828
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.456  | TNS=0.000  | WHS=-0.303 | THS=-154.737|
 
 
@@ -557,17 +557,17 @@ Router Utilization Summary
 
 Phase 2 Router Initialization | Checksum: 23933e7b2
 
-Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 2146.477 ; gain = 134.887
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:39 . Memory (MB): peak = 2149.496 ; gain = 138.836
 
 Phase 3 Initial Routing
 
 Phase 3.1 Global Routing
 Phase 3.1 Global Routing | Checksum: 23933e7b2
 
-Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 2146.477 ; gain = 134.887
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:39 . Memory (MB): peak = 2149.496 ; gain = 138.836
 Phase 3 Initial Routing | Checksum: 1a0b25fde
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:00:37 . Memory (MB): peak = 2146.477 ; gain = 134.887
+Time (s): cpu = 00:00:46 ; elapsed = 00:00:40 . Memory (MB): peak = 2149.496 ; gain = 138.836
 
 Phase 4 Rip-up And Reroute
 
@@ -579,7 +579,7 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.456  | TNS=0.000  | WHS
 
 Phase 4.1 Global Iteration 0 | Checksum: 19c4ba384
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:39 . Memory (MB): peak = 2148.871 ; gain = 137.281
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:42 . Memory (MB): peak = 2152.379 ; gain = 141.719
 
 Phase 4.2 Global Iteration 1
  Number of Nodes with overlaps = 0
@@ -587,25 +587,25 @@ INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.456  | TNS=0.000  | WHS
 
 Phase 4.2 Global Iteration 1 | Checksum: 1e9dc84fd
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:39 . Memory (MB): peak = 2149.352 ; gain = 137.762
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:43 . Memory (MB): peak = 2152.859 ; gain = 142.199
 Phase 4 Rip-up And Reroute | Checksum: 1e9dc84fd
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:39 . Memory (MB): peak = 2149.352 ; gain = 137.762
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:43 . Memory (MB): peak = 2152.859 ; gain = 142.199
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 Phase 5.1 Delay CleanUp | Checksum: 1e9dc84fd
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:39 . Memory (MB): peak = 2149.352 ; gain = 137.762
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:43 . Memory (MB): peak = 2152.859 ; gain = 142.199
 
 Phase 5.2 Clock Skew Optimization
 Phase 5.2 Clock Skew Optimization | Checksum: 1e9dc84fd
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:39 . Memory (MB): peak = 2149.352 ; gain = 137.762
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:43 . Memory (MB): peak = 2152.859 ; gain = 142.199
 Phase 5 Delay and Skew Optimization | Checksum: 1e9dc84fd
 
-Time (s): cpu = 00:00:47 ; elapsed = 00:00:39 . Memory (MB): peak = 2149.352 ; gain = 137.762
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:43 . Memory (MB): peak = 2152.859 ; gain = 142.199
 
 Phase 6 Post Hold Fix
 
@@ -614,15 +614,15 @@ Phase 6.1 Hold Fix Iter
 Phase 6.1.1 Update Timing
 Phase 6.1.1 Update Timing | Checksum: 1fb666635
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:40 . Memory (MB): peak = 2149.711 ; gain = 138.121
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:43 . Memory (MB): peak = 2153.102 ; gain = 142.441
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.456  | TNS=0.000  | WHS=0.040  | THS=0.000  |
 
 Phase 6.1 Hold Fix Iter | Checksum: 16c2e5bd4
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:40 . Memory (MB): peak = 2149.711 ; gain = 138.121
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:43 . Memory (MB): peak = 2153.102 ; gain = 142.441
 Phase 6 Post Hold Fix | Checksum: 16c2e5bd4
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:40 . Memory (MB): peak = 2149.711 ; gain = 138.121
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:43 . Memory (MB): peak = 2153.102 ; gain = 142.441
 
 Phase 7 Route finalize
 
@@ -640,19 +640,19 @@ Router Utilization Summary
 
 Phase 7 Route finalize | Checksum: 1aa3c1caa
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:40 . Memory (MB): peak = 2149.711 ; gain = 138.121
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:43 . Memory (MB): peak = 2153.102 ; gain = 142.441
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
 Phase 8 Verifying routed nets | Checksum: 1aa3c1caa
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:40 . Memory (MB): peak = 2151.781 ; gain = 140.191
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:43 . Memory (MB): peak = 2155.125 ; gain = 144.465
 
 Phase 9 Depositing Routes
 Phase 9 Depositing Routes | Checksum: 1a6e0699b
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:40 . Memory (MB): peak = 2151.781 ; gain = 140.191
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:44 . Memory (MB): peak = 2155.125 ; gain = 144.465
 
 Phase 10 Post Router Timing
 INFO: [Route 35-57] Estimated Timing Summary | WNS=1.456  | TNS=0.000  | WHS=0.040  | THS=0.000  |
@@ -660,32 +660,32 @@ INFO: [Route 35-57] Estimated Timing Summary | WNS=1.456  | TNS=0.000  | WHS=0.0
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
 Phase 10 Post Router Timing | Checksum: 1a6e0699b
 
-Time (s): cpu = 00:00:50 ; elapsed = 00:00:41 . Memory (MB): peak = 2151.781 ; gain = 140.191
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:44 . Memory (MB): peak = 2155.125 ; gain = 144.465
 INFO: [Route 35-16] Router Completed Successfully
 
 Phase 11 Post-Route Event Processing
 Phase 11 Post-Route Event Processing | Checksum: 13955b367
 
-Time (s): cpu = 00:00:50 ; elapsed = 00:00:41 . Memory (MB): peak = 2151.781 ; gain = 140.191
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:44 . Memory (MB): peak = 2155.125 ; gain = 144.465
 
-Time (s): cpu = 00:00:50 ; elapsed = 00:00:41 . Memory (MB): peak = 2151.781 ; gain = 140.191
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:44 . Memory (MB): peak = 2155.125 ; gain = 144.465
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 90 Infos, 26 Warnings, 25 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:43 . Memory (MB): peak = 2151.781 ; gain = 161.629
+route_design: Time (s): cpu = 00:00:56 ; elapsed = 00:00:46 . Memory (MB): peak = 2155.125 ; gain = 171.078
 INFO: [runtcl-4] Executing : report_drc -file Nexys4DdrUserDemo_drc_routed.rpt -pb Nexys4DdrUserDemo_drc_routed.pb -rpx Nexys4DdrUserDemo_drc_routed.rpx
 Command: report_drc -file Nexys4DdrUserDemo_drc_routed.rpt -pb Nexys4DdrUserDemo_drc_routed.pb -rpx Nexys4DdrUserDemo_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
-INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo_drc_routed.rpt.
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo_drc_routed.rpt.
 report_drc completed successfully
 INFO: [runtcl-4] Executing : report_methodology -file Nexys4DdrUserDemo_methodology_drc_routed.rpt -pb Nexys4DdrUserDemo_methodology_drc_routed.pb -rpx Nexys4DdrUserDemo_methodology_drc_routed.rpx
 Command: report_methodology -file Nexys4DdrUserDemo_methodology_drc_routed.rpt -pb Nexys4DdrUserDemo_methodology_drc_routed.pb -rpx Nexys4DdrUserDemo_methodology_drc_routed.rpx
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
-INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo_methodology_drc_routed.rpt.
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo_methodology_drc_routed.rpt.
 report_methodology completed successfully
 INFO: [runtcl-4] Executing : report_power -file Nexys4DdrUserDemo_power_routed.rpt -pb Nexys4DdrUserDemo_power_summary_routed.pb -rpx Nexys4DdrUserDemo_power_routed.rpx
 Command: report_power -file Nexys4DdrUserDemo_power_routed.rpt -pb Nexys4DdrUserDemo_power_summary_routed.pb -rpx Nexys4DdrUserDemo_power_routed.rpx
@@ -709,8 +709,8 @@ INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2205.668 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo_routed.dcp' has been generated.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2208.961 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo_routed.dcp' has been generated.
 Command: write_bitstream -force Nexys4DdrUserDemo.bit
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
@@ -749,5 +749,5 @@ INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT dev
 INFO: [Common 17-83] Releasing license: Implementation
 14 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2793.625 ; gain = 587.957
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 16:22:57 2024...
+write_bitstream: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 2805.504 ; gain = 596.543
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 21:30:32 2024...

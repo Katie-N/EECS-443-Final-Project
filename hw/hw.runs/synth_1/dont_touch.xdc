@@ -6,7 +6,7 @@
 # IP: ip/ddr/ddr.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ddr || ORIG_REF_NAME==ddr} -quiet] -quiet
 
-# XDC: c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc
+# XDC: c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==ddr || ORIG_REF_NAME==ddr} -quiet] -quiet
 
-# XDC: c:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr_ooc.xdc
+# XDC: c:/Users/Katie/Downloads/NordbergFinal/hw/hw.gen/sources_1/ip/ddr/ddr/user_design/constraints/ddr_ooc.xdc

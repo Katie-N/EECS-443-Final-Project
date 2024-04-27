@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo.tcl"
+  variable script "C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/impl_1/Nexys4DdrUserDemo.tcl"
   variable category "vivado_impl"
 }
 
@@ -123,30 +123,29 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 1
-  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 2  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a100tcsg324-1
-  set_property board_part_repo_paths {C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.board} [current_project]
+  set_property board_part_repo_paths {C:/Users/Katie/Downloads/NordbergFinal/hw/hw.board} [current_project]
   set_property board_part digilentinc.com:nexys-a7-100t:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.xpr [current_project]
+  set_property webtalk.parent_dir C:/Users/Katie/Downloads/NordbergFinal/hw/hw.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Katie/Downloads/NordbergFinal/hw/hw.xpr [current_project]
   set_property ip_repo_paths C:/Users/Katie/Downloads/repo [current_project]
   update_ip_catalog
-  set_property ip_output_repo C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.cache/ip [current_project]
+  set_property ip_output_repo C:/Users/Katie/Downloads/NordbergFinal/hw/hw.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES XPM_CDC [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/synth_1/Nexys4DdrUserDemo.dcp
-  read_ip -quiet C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/ip/ddr/ddr.xci
-  read_ip -quiet C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/ClkGen/ip/ClkGen/ClkGen.xci
+  add_files -quiet C:/Users/Katie/Downloads/NordbergFinal/hw/hw.runs/synth_1/Nexys4DdrUserDemo.dcp
+  read_ip -quiet C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/sources_1/ip/ddr/ddr.xci
+  read_ip -quiet C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/ClkGen/ip/ClkGen/ClkGen.xci
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc
+  read_xdc C:/Users/Katie/Downloads/NordbergFinal/hw/hw.srcs/constrs_1/imports/constraints/Nexys-A7-100T-Master.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
