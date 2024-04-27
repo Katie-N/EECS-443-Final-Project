@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="ClkGen_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1691410179">
+  <File Type="PA-TCL" Name="ClkGen.tcl"/>
+  <File Type="REPORTS-TCL" Name="ClkGen_reports.tcl"/>
+  <File Type="RDS-RDS" Name="ClkGen.vds"/>
+  <File Type="RDS-UTIL" Name="ClkGen_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ClkGen_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ClkGen.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ClkGen" RelGenDir="$PGENDIR/ClkGen">
+    <File Path="$PSRCDIR/ClkGen/ip/ClkGen/ClkGen.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../src/ip/ClkGen/ClkGen.xci"/>
+        <Attr Name="ImportTime" Val="1691411983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ClkGen"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ClkGen" RelGenDir="$PGENDIR/ClkGen">
+    <File Path="$PSRCDIR/ClkGen/ip/ClkGen/ClkGen.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../src/ip/ClkGen/ClkGen.xci"/>
+        <Attr Name="ImportTime" Val="1691411983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="ClkGen"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

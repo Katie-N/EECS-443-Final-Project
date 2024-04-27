@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Aug  7 15:08:04 2023
+# Process ID: 12260
+# Current directory: C:/Users/rbocos/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24416
+# Log file: C:/Users/rbocos/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/rbocos/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: bocos-ro, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 34065 MB
+#-----------------------------------------------------------
+start_gui
+source C:/Temp/Nexys-A7/hw/scripts/checkout.tcl
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 5
+wait_on_run impl_1
+get_board_parts *nexys-a7-100t*
+report_ip_status -name ip_status 
+archive_project C:/Temp/Nexys-A7/hw/Nexys-A7-OOB-hw.xpr.zip -temp_dir C:/Temp/Nexys-A7/hw -force -include_local_ip_cache -include_config_settings

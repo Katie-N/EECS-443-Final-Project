@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Apr 22 23:24:29 2024
+# Process ID: 24496
+# Current directory: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25244 C:\Users\Katie\Downloads\Nexys-A7-OOB-hw.xpr\hw\hw.xpr
+# Log file: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/vivado.log
+# Journal file: C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw\vivado.jou
+# Running On: Katies-Desktop, OS: Windows, CPU Frequency: 3504 MHz, CPU Physical cores: 4, Host memory: 17128 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.xpr
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+reset_run BRAM_1_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+reset_run BRAM_1_synth_1
+close_hw_manager
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/RgbLed.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/sSegDemo.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/FPGAMonitor.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/TempSensorCtl.vhd]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/TWICtl.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/sSegDisplay.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/top.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/Vga.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/AccelerometerCtl.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/MouseCtl.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/AudioDemo.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/MicDisplay.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/OverlayCtl.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/AccelDisplay.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/PdmDes.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/PdmSer.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/SyncAsync.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/MouseDisplay.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/RgbLedDisplay.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/TempDisplay.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/ADXL362Ctrl.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/AccelArithmetics.vhd]
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/LogoDisplay.vhd]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/Ps2Interface.vhd]
+set_property is_enabled true [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/AudioDemo.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/top.vhd]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/MicDisplay.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/PdmSer.vhd]
+set_property is_enabled true [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/PdmDes.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.srcs/sources_1/imports/src/hdl/SyncAsync.vhd]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Katie/Downloads/Nexys-A7-OOB-hw.xpr/hw/hw.runs/impl_1/Nexys4DdrUserDemo.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
